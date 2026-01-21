@@ -4,16 +4,15 @@ def test_one():
     import time
     from selenium import webdriver
     driver = webdriver.Chrome()
-    driver.implicitly_wait(10)
-    driver.get('https://testautomationpractice.blogspot.com/')
+    driver.get('https://practicetestautomation.com/practice-test-login/')
     time.sleep(2)
     driver.close()
+
 
 def test_two():
     import time
     from selenium import webdriver
     driver = webdriver.Chrome()
-    driver.implicitly_wait(10)
-    driver.get('https://www.facebook.com/')
+    driver.get('https://demoapps.qspiders.com/ui?scenario=1')
     time.sleep(2)
     driver.close()
